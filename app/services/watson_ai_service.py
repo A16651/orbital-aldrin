@@ -124,7 +124,7 @@ def analyze_ingredients_with_watson(ingredients: str, product_name: str = "") ->
     }
     
     # Initialize Model
-    model_id = "ibm/granite-13b-chat-v2" # or "ibm/granite-3-8b-instruct" depending on availability
+    model_id = "ibm/granite-3-8b-instruct"
     
     params = {
         GenParams.DECODING_METHOD: "greedy",
