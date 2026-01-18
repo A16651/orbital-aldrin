@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+pydantic
+pydantic-settings
+requests
+python-dotenv
+python-multipart
+ibm-watson-machine-learning
+ibm-watson
